@@ -13,12 +13,12 @@ const contacts = [
   {
     icon: <WhatsApp />,
     referer: "WhatsApp",
-    href: "https://w.app/iBEqv",
+    href: "https://wa.me/554497483524 ",
   },
   {
     icon: <GitHub />,
     referer: "Github",
-    href: "https://github.com/ElementalDLC37",
+    href: "https://github.com/ruiluucas",
   },
   {
     icon: <Instagram />,
@@ -28,7 +28,7 @@ const contacts = [
   {
     icon: <LinkedIn />,
     referer: "LinkedIn",
-    href: "https://www.linkedin.com/in/rui-lucas-anthony-gomes/",
+    href: "https://www.linkedin.com/in/rui-lucas-a-gomes/",
   },
 ];
 
