@@ -90,6 +90,25 @@ export default function Apresentation() {
                       Software Developer
                     </motion.p>
                   </MotionConfig>
+                  <MotionConfig>
+                    <motion.button
+                      key="title"
+                      initial={{ opacity: 0, x: 80 }}
+                      animate={{
+                        opacity: 1,
+                        x: 0,
+                        transition: {
+                          duration: 2.8,
+                          ease: "circOut",
+                          delay: 1.4,
+                        },
+                      }}
+                      exit={{ opacity: 0, transition: { duration: 0.6 } }}
+                      className="tracking-tight text-sm text-green-500 cursor-pointer"
+                    >
+                      Clique na tela!
+                    </motion.button>
+                  </MotionConfig>
                 </LayoutGroup>
               )}
             </AnimatePresence>
